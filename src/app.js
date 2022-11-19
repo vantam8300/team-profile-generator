@@ -191,7 +191,6 @@ class App {
     generateCard(employeeList) {
         let result = ``;
         employeeList.forEach(employee => {
-            console.log("inside generate Card",employee)
 
             if (employee instanceof Manager) {
                 result += `
